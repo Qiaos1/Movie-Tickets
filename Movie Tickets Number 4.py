@@ -11,11 +11,12 @@ def confirm_order(ticket, number, cost):
       confirm = input(f"\nYou have ordered {number} {ticket} ticket(s)"
                       f"at a cost of ${cost * number:.2f}!\n"
                       f"'Y' or 'N': ")
-        if confirm == "Y":
-            return True
+    if confirm == "Y":
+        return True
 
-        else:
-            return False
+    else:
+        return False
+
 
 
 
