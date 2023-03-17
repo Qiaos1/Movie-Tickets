@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f183dcab-9796-4add-ad8d-db4bfc203785" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Movie Tickets Number 6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Movie Tickets Number 6.py" afterDir="false" />
-    </list>
+    <list default="true" id="f183dcab-9796-4add-ad8d-db4bfc203785" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +22,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2MyYA8rEBW9r3l9owebwZvdoSzJ" />
   <component name="ProjectViewState">
