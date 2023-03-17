@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f183dcab-9796-4add-ad8d-db4bfc203785" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Movie Tickets Number 3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Movie Tickets Number 4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Tickets Number 5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,5 +120,16 @@
       <updated>1678741142110</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Movie Tickets Number 4.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
