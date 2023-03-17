@@ -1,16 +1,28 @@
-"""Movie Theater Ticketing System - v4
-Confirm Order
+"""Movie Theater Ticketing System - v6
+Print Summary
 Created by Sarah Qiao
 """
 
+
 # Component 6 - print summary
+def print_summary(tickets_sold, adult_tickets, student_tickets, child_tickets,
+                  gift_vouchers, total_sold):
+    print("="*30)
+    print(f"The total tickets sold today was {tickets_sold}\n"
+          f"This was made up of:\n"
+          f"\t{adult_tickets} for adults; and\n"
+          f"\t{student_tickets} for students; and\n"
+          f"\t{child_tickets} for children; and\n"
+          f"\t{gift_vouchers} gift vouchers\n"
+          f"Sales for the day came to ${total_sold:2f}")
+    print("="*30)
 
 
 # Component 4 - Confirm Order
 def confirm_order(ticket, number, cost):
     confirm = ""
     while confirm != "Y" and confirm != "N":
-      confirm = input(f"\nYou have ordered {number} {ticket} ticket(s)"
+     confirm = input(f"\nYou have ordered {number} {ticket} ticket(s)"
                       f"at a cost of ${cost * number:.2f}!\n"
                       f"'Y' or 'N': ").upper()
     if confirm == "Y":
@@ -20,11 +32,9 @@ def confirm_order(ticket, number, cost):
         return False
 
 
-
-
-    # Component 3 - Calculate Ticket Price
+# Component 3 - Calculate Ticket Price
 def get_price(type1):
-    prices= [["A",12.5], ["C", 7], ["S", 9], ["G", 0]]
+    prices = [["A", 12.5], ["C", 7], ["S", 9], ["G", 0]]
     for price in prices:
         if price[0] == type1:
             return price[1]
@@ -70,15 +80,16 @@ def sell_ticket():
             else:
                 gift_tickets += num_tickets
 
-
         else:
             print("Order Cancelled")
 
         ticket_wanted = input("Do you want to sell another ticket? (Y/N):"
                               "").upper()
-
-
+        # Component 6 - produce summary of sales
+        print_summary(tickets_sold, adult_tickets, student_tickets, child_tickets,
+                      gift_tickets, total_sold)
 
 
 # Main routine
 sell_ticket()
+print("Goodbye\nThanks for using Fanfare Movies")
