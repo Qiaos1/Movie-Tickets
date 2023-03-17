@@ -7,7 +7,7 @@ Created by Sarah Qiao
 # Component 6 - print summary
 def print_summary(tickets_sold, adult_tickets, student_tickets, child_tickets,
                   gift_vouchers, total_sold):
-    print("="*30)
+    print("=" * 30)
     print(f"The total tickets sold today was {tickets_sold}\n"
           f"This was made up of:\n"
           f"\t{adult_tickets} for adults; and\n"
@@ -15,16 +15,16 @@ def print_summary(tickets_sold, adult_tickets, student_tickets, child_tickets,
           f"\t{child_tickets} for children; and\n"
           f"\t{gift_vouchers} gift vouchers\n"
           f"Sales for the day came to ${total_sold:2f}")
-    print("="*30)
+    print("=" * 30)
 
 
 # Component 4 - Confirm Order
 def confirm_order(ticket, number, cost):
     confirm = ""
     while confirm != "Y" and confirm != "N":
-     confirm = input(f"\nYou have ordered {number} {ticket} ticket(s)"
-                      f"at a cost of ${cost * number:.2f}!\n"
-                      f"'Y' or 'N': ").upper()
+        confirm = input(f"\nYou have ordered {number} {ticket} ticket(s)"
+                        f"at a cost of ${cost * number:.2f}!\n"
+                        f"'Y' or 'N': ").upper()
     if confirm == "Y":
         return True
 
