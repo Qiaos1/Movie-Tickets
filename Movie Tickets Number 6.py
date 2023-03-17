@@ -1,7 +1,9 @@
-"""Movie Theater Ticketing System - v5
-Update Total
+"""Movie Theater Ticketing System - v4
+Confirm Order
 Created by Sarah Qiao
 """
+
+# Component 6 - print summary
 
 
 # Component 4 - Confirm Order
